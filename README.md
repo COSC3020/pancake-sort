@@ -15,7 +15,10 @@ over all pancakes above that point.
 
 Implement a sorting function that will sort an array of pancakes such that the
 smallest pancake is at the top. You may use only the `flip()` function to
-manipulate the array. You may break ties arbitrarily.
+manipulate the array. You may break ties arbitrarily. Test your new function;
+I've provided some basic testing code that uses
+[jsverify](https://jsverify.github.io/) in `code.test.js`, but it only tests
+`pancakeSort()`, not `flip()`.
 
 Hint: Start by thinking about the calls to `flip()` required to move a *single*
 element into its correct position.
