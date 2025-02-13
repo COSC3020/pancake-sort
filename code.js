@@ -1,4 +1,4 @@
-function flip(array, n) {
+// eslint-disable-next-line no-unused-varsfunction flip(array, n) {
     return array;
 }
 
